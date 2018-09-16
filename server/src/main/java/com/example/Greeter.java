@@ -12,9 +12,11 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
-	System.out.println("Hola");
+  /**
+   * Give a greeter message
+   */
+  public final String greet(final String someone) {
+    System.out.println("Hola");
     return String.format("Hello, %s!", someone);
   }
 }
